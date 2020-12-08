@@ -1,0 +1,30 @@
+/*----footer starts----*/
+
+.footer ul {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.nav-footer-center {
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+.nav-footer-center ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.nav-footer-center li {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    line-height: 3.5;
+}
+
+.nav-footer-center a {
+    color: #4d4d4d;
+}
+
+/*----footer ends----*/
