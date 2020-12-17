@@ -1,5 +1,9 @@
 /*----footer starts----*/
 
+footer {
+    margin-top: 505px;
+}
+
 .footer ul {
     margin: 0;
     margin-bottom: 0;
@@ -8,7 +12,7 @@
 .nav-footer-center {
     margin: 0;
     padding: 0;
-    background-color: #d9d9d9;
+    background-color: #b1b1b1;
 }
 
 .nav-footer-center ul {
