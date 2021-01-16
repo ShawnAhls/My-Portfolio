@@ -1,7 +1,22 @@
+
+/*----about starts----*/
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    text-align: center;
+}
+
+.bio {
+    border-color: black;
+}
+
+/*----about ends----*/
+
 /*----footer starts----*/
 
 footer {
-    margin-top: 505px;
+    margin-top: auto;
 }
 
 .footer ul {
@@ -18,6 +33,7 @@ footer {
 .nav-footer-center ul {
     list-style-type: none;
     margin-bottom: 0;
+    margin-left: 473px;
 }
 
 .nav-footer-center li {
