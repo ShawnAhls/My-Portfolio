@@ -1,3 +1,18 @@
+/*----navbar starts----*/
+.navbar {
+    text-align: center;
+    background-color: red;
+}
+/*----navbar ends----*/
+
+/*----nav cards starts----*/
+.card {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    margin-left: 55px;
+}
+/*----nav cards ends----*/
 
 /*----about starts----*/
 
@@ -17,34 +32,8 @@ h3 {
 
 footer {
     margin-top: auto;
-}
-
-.footer ul {
-    margin: 0;
-    margin-bottom: 0;
-}
-
-.nav-footer-center {
-    margin: 0;
-    padding: 0;
-    background-color: #b1b1b1;
-}
-
-.nav-footer-center ul {
-    list-style-type: none;
-    margin-bottom: 0;
-    margin-left: 473px;
-}
-
-.nav-footer-center li {
-    margin: 10px;
-    padding: 10px;
-    display: inline-block;
-    line-height: 3.5;
-}
-
-.nav-footer-center a {
-    color: #4d4d4d;
+    text-align: center;
+    background-color: red;
 }
 
 /*----footer ends----*/
