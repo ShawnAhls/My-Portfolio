@@ -2,6 +2,7 @@
 .navbar {
     text-align: center;
     background-color: red;
+    width: 100%;
 }
 /*----navbar ends----*/
 
@@ -30,14 +31,21 @@ h3 {
 
 /*----skills starts----*/
 
+a {
+   color: black;
+   text-decoration: none; 
+   border: 2px;
+}
+
 progress {
   text-align: center;
-  height: 50px;
-  width: 100%;
-  background-color: green;
+  height: 40px;
+  width: 95%;
+  margin-left: 20px;
+  background-color: red; 
 }
+
 progress:after {
-    color: green;
     content: attr(value)'%';
 }
 
@@ -49,6 +57,7 @@ footer {
     margin-top: auto;
     text-align: center;
     background-color: red;
+    height: 50px;
 }
 
 /*----footer ends----*/
