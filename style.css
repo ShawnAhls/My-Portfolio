@@ -28,6 +28,21 @@ h3 {
 
 /*----about ends----*/
 
+/*----skills starts----*/
+
+progress {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background-color: green;
+}
+progress:after {
+    color: green;
+    content: attr(value)'%';
+}
+
+/*----skills ends----*/
+
 /*----footer starts----*/
 
 footer {
