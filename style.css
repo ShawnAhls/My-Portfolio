@@ -1,8 +1,42 @@
 /*----navbar starts----*/
 .navbar {
     text-align: center;
-    background-color: red;
+    background-color: black;
     width: 100%;
+    color: white;
+}
+
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav ul {
+    flex: auto;
+    list-style: none;
+    margin: 0 40px;
+    position: relative;
+}
+
+nav ul li {
+    margin-right: 60px;
+    float: right;
+    display: inline-flex;
+}
+
+nav ul li button {
+    border-radius: 20px;
+    border-color: white;
+    background-color: darkgray;
+}    
+
+nav ul li a {
+    
+}
+
+nav ul li a:hover {
+    color: yellow;
 }
 /*----navbar ends----*/
 
