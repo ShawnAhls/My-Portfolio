@@ -1,3 +1,7 @@
+/* body {
+    width: 100%;
+} */
+
 /*----navbar starts----*/
 .navbar {
     text-align: center;
@@ -25,18 +29,12 @@ nav ul li {
     display: inline-flex;
 }
 
-nav ul li button {
-    border-radius: 20px;
-    border-color: white;
-    background-color: darkgray;
-}    
-
 nav ul li a {
-    
+    color: white;    
 }
 
 nav ul li a:hover {
-    color: yellow;
+    color: lightgray;
 }
 /*----navbar ends----*/
 
@@ -48,6 +46,14 @@ nav ul li a:hover {
     margin-left: 55px;
 }
 /*----nav cards ends----*/
+
+/*----images starts----*/
+img {
+    position: relative;
+    width: 100%;
+}
+
+/*----images ends----*/
 
 /*----about starts----*/
 
