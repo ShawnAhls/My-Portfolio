@@ -101,10 +101,25 @@ progress:after {
 /*----footer starts----*/
 
 footer {
-    margin-top: auto;
     text-align: center;
-    background-color: red;
-    height: 50px;
+    background-color: rgb(3, 3, 3);
+    height: 73px;
 }
+
+footer p {
+    font-family: Special Elite;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+footer p i{
+    font-family: Special Elite;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
 
 /*----footer ends----*/
