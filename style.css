@@ -58,6 +58,9 @@ nav ul li a:hover {
 img {
     position: relative;
     width: 100%;
+    padding: 0;
+    border: 5px solid;
+    border-color: black;
 }
 
 /*----images ends----*/
@@ -97,6 +100,31 @@ progress:after {
 }
 
 /*----skills ends----*/
+
+/*----contact starts----*/
+
+form {
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+.submit {
+    margin-left: 100px;
+}
+
+/*----contact ends----*/
+
+/*----back to top starts----*/
+
+.up {
+    float: right;
+    background-color: greenyellow;
+}
+
+/*----back to top ends ----*/
 
 /*----footer starts----*/
 
