@@ -119,9 +119,25 @@ label {
 
 /*----back to top starts----*/
 
-.up {
-    float: right;
-    background-color: greenyellow;
+#up {
+  display: none;
+  position: fixed; 
+  bottom: 20px;
+  right: 10px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(218, 218, 218); 
+  color: rgb(12, 12, 12); 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 20px; 
+}
+
+#up:hover {
+ background-color: rgb(0, 0, 0);
+ color: white;
 }
 
 /*----back to top ends ----*/
