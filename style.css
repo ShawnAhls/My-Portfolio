@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
-/* body {
-    width: 100%;
-} */
 
 /*----navbar starts----*/
 .navbar {
@@ -46,12 +43,7 @@ nav ul li a:hover {
 /*----navbar ends----*/
 
 /*----nav cards starts----*/
-.card {
-    width: 250px;
-    height: 250px;
-    margin: 25px;
-    margin-left: 55px;
-}
+
 /*----nav cards ends----*/
 
 /*----images starts----*/
@@ -92,16 +84,34 @@ a {
    border: 2px;
 }
 
-progress {
-  text-align: center;
-  height: 40px;
-  width: 95%;
-  margin-left: 20px;
+a:hover {
+   color: darkgrey;
+   text-decoration: none; 
+   border: 2px;
 }
 
-progress:after {
-    content: attr(value)'%';
+.bar {
+    display: inline-flex;
 }
+
+.circle {
+    margin-left: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border: 2px solid darkgray;
+}
+
+.circle1 {
+    margin-left: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid rgb(199, 198, 198);
+}
+
 
 /*----skills ends----*/
 
