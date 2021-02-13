@@ -78,6 +78,15 @@ h3 {
 
 /*----skills starts----*/
 
+h6 {
+    margin: 15px;
+}
+
+.skills {
+    margin-left: 360px;
+    margin-bottom: 15px;
+}
+
 a {
    color: black;
    text-decoration: none; 
