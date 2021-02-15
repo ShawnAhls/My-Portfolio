@@ -240,15 +240,198 @@ a:hover {
 
 }
 
-@media (min-width: 575px) {
+@media (min-width: 375px) {
+    /*----skills starts----*/
+
+h6 {
+    margin: 15px;
+}
+
+.skills {
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+a {
+   color: black;
+   text-decoration: none; 
+   border: 2px;
+}
+
+a:hover {
+   color: darkgrey;
+   text-decoration: none; 
+   border: 2px;
+}
+
+.bar {
+    display: inline-flex;
+}
+
+.circle {
+    margin-left: 7px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border: 2px solid darkgray;
+}
+
+.circle1 {
+    margin-left: 7px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid rgb(199, 198, 198);
+}
+
+/*----skills ends----*/
+
+}
+
+@media (min-width: 425px) {
+
+h6 {
+    margin: 15px;
+}
+
+.skills {
+    margin-left: 54px;
+    margin-bottom: 15px;
+}
+
+a {
+   color: black;
+   text-decoration: none; 
+   border: 2px;
+}
+
+a:hover {
+   color: darkgrey;
+   text-decoration: none; 
+   border: 2px;
+}
+
+.bar {
+    display: inline-flex;
+}
+
+.circle {
+    margin-left: 7px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border: 2px solid darkgray;
+}
+
+.circle1 {
+    margin-left: 7px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid rgb(199, 198, 198);
+}
+
+/*----skills ends----*/
 
 }
 
 @media (min-width: 768px) {
+h6 {
+    margin: 15px;
+}
 
+.skills {
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+a {
+   color: black;
+   text-decoration: none; 
+   border: 2px;
+}
+
+a:hover {
+   color: darkgrey;
+   text-decoration: none; 
+   border: 2px;
+}
+
+.bar {
+    display: inline-flex;
+}
+
+.circle {
+    margin-left: 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border: 2px solid darkgray;
+}
+
+.circle1 {
+    margin-left: 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid rgb(199, 198, 198);
+}
+
+/*----skills ends----*/
 }
 
 @media (min-width: 992px) {
+
+h6 {
+    margin: 15px;
+}
+
+.skills {
+    margin-left: 250px;
+    margin-bottom: 15px;
+}
+
+a {
+   color: black;
+   text-decoration: none; 
+   border: 2px;
+}
+
+a:hover {
+   color: darkgrey;
+   text-decoration: none; 
+   border: 2px;
+}
+
+.bar {
+    display: inline-flex;
+}
+
+.circle {
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border: 2px solid darkgray;
+}
+
+.circle1 {
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid rgb(199, 198, 198);
+}
+
+/*----skills ends----*/
 
 }
 
