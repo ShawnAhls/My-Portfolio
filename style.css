@@ -3,6 +3,7 @@
 
 /*----navbar starts----*/
 .navbar {
+    display: flex;
     text-align: center;
     background-color: black;
     width: 100%;
@@ -20,31 +21,45 @@ nav:after {
     display: table;
 }
 
-nav ul {
+.navbar-links ul {
     flex: auto;
     list-style: none;
     margin: 0 40px;
     position: relative;
 }
 
-nav ul li {
+.navbar-links ul li {
     margin-right: 60px;
     float: right;
     display: inline-flex;
 }
 
-nav ul li a {
+.navbar-links ul li a {
     color: white;    
 }
 
-nav ul li a:hover {
-    color: lightgray;
+.navbar-links ul li a:hover {
+    color: gray;
+}
+
+.toggle-button {
+    position: absolute;
+    display: flex;
+    top: 25px;
+    right: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 /*----navbar ends----*/
-
-/*----nav cards starts----*/
-
-/*----nav cards ends----*/
 
 /*----images starts----*/
 img {
