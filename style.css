@@ -44,7 +44,7 @@ nav:after {
 
 .toggle-button {
     position: absolute;
-    display: flex;
+    display: none;
     top: 25px;
     right: 30px;
     justify-content: space-between;
@@ -54,10 +54,10 @@ nav:after {
 }
 
 .toggle-button .bar {
-    height: 3px;
+    height: 5px;
     width: 100%;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 /*----navbar ends----*/
 
@@ -206,7 +206,18 @@ footer p i{
 /*----Media Queries starts----*/
 
 @media (min-width: 320px) {
-    /*----skills starts----*/
+/*----navbar starts----*/
+
+.toggle-button {
+    display: flex;
+}
+
+.navbar-links {
+    display: none;
+}
+
+/*----navbar ends----*/
+/*----skills starts----*/
 
 h6 {
     margin: 15px;
@@ -256,7 +267,18 @@ a:hover {
 }
 
 @media (min-width: 375px) {
-    /*----skills starts----*/
+/*----navbar starts----*/
+
+.toggle-button {
+    display: flex;
+}
+
+.navbar-links {
+    display: none;
+}
+
+/*----navbar ends----*/
+/*----skills starts----*/
 
 h6 {
     margin: 15px;
@@ -306,7 +328,18 @@ a:hover {
 }
 
 @media (min-width: 425px) {
+/*----navbar starts----*/
 
+.toggle-button {
+    display: flex;
+}
+
+.navbar-links {
+    display: none;
+}
+
+/*----navbar ends----*/
+/*----skills starts----*/
 h6 {
     margin: 15px;
 }
@@ -355,8 +388,19 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+/*----navbar starts----*/
 
-    h6 {
+.toggle-button {
+    display: none;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+/*----navbar ends----*/
+/*----skills starts----*/
+h6 {
     margin: 15px;
 }
 
@@ -403,7 +447,18 @@ a:hover {
 }
 
 @media (min-width: 992px) {
+/*----navbar starts----*/
 
+.toggle-button {
+    display: none;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+/*----navbar ends----*/
+/*----skills starts----*/
 h6 {
     margin: 15px;
 }
@@ -452,7 +507,17 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
+/*----navbar starts----*/
 
+.toggle-button {
+    display: none;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+/*----navbar ends----*/
 /*----skills starts----*/
 
 h6 {
@@ -503,7 +568,17 @@ a:hover {
 }
 
 @media (min-width: 2560px) {
+/*----navbar starts----*/
 
+.toggle-button {
+    display: none;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+/*----navbar ends----*/
 /*----skills starts----*/
 
 h6 {
