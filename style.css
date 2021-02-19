@@ -211,6 +211,23 @@ footer p i{
 
 @media (min-width: 320px) {
 /*----navbar starts----*/
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar-links ul {
+    flex-direction: column;
+}
+
+.navbar-links li {
+    text-align: center;
+}
+
+.navbar-links.active {
+    display: flex;
+}
+
 .navbar-brand {
     margin: 10px 0px 0px 9px;
 }
@@ -221,7 +238,7 @@ footer p i{
 
 .navbar-links {
     display: none;
-}
+} 
 
 /*----navbar ends----*/
 /*----skills starts----*/
