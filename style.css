@@ -59,6 +59,10 @@ nav:after {
     background-color: white;
     border-radius: 20px;
 }
+
+.toggle-button .bar:hover {
+    color: gray;
+}
 /*----navbar ends----*/
 
 /*----images starts----*/
@@ -207,6 +211,9 @@ footer p i{
 
 @media (min-width: 320px) {
 /*----navbar starts----*/
+.navbar-brand {
+    margin: 10px 0px 0px 9px;
+}
 
 .toggle-button {
     display: flex;
