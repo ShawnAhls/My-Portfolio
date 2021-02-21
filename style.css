@@ -21,8 +21,12 @@ nav:after {
     display: table;
 }
 
+.navbar-links {
+    display: flex;
+}
+
 .navbar-links ul {
-    flex: auto;
+    /* flex: auto; */
     list-style: none;
     margin: 0 40px;
     position: relative;
@@ -30,7 +34,6 @@ nav:after {
 
 .navbar-links ul li {
     margin-right: 60px;
-    float: right;
     display: inline-flex;
 }
 
@@ -299,7 +302,6 @@ a:hover {
 
 .navbar-links ul {
     flex-direction: column;
-    width: 100%;
 }
 
 .navbar-links li {
@@ -316,7 +318,7 @@ a:hover {
 
 .navbar-links {
     display: none;
-    width: 100%;
+    /* width: 100%; */
 }
 
 /*----navbar ends----*/
@@ -433,11 +435,11 @@ a:hover {
 /*----navbar starts----*/
 
 .toggle-button {
-    display: none;
+    display: flex;
 }
 
 .navbar-links {
-    display: flex;
+    display: none;
 }
 
 /*----navbar ends----*/
