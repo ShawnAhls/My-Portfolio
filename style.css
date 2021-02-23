@@ -26,6 +26,7 @@ nav:after {
     list-style: none;
     margin: 0 40px;
     position: relative;
+    display: inline-block;
 }
 
 .navbar-links ul li {
@@ -499,7 +500,9 @@ a:hover {
 
 @media (min-width: 992px) {
 /*----navbar starts----*/
-
+.navbar {
+    flex-wrap: nowrap;
+}
 .toggle-button {
     display: none;
 }
@@ -507,6 +510,10 @@ a:hover {
 .navbar-links {
     display: flex;
 }
+
+/* .navbar-links {
+    margin: 0px;
+} */
 
 /*----navbar ends----*/
 /*----skills starts----*/
