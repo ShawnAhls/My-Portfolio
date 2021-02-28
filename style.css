@@ -160,6 +160,15 @@ label {
 
 /*----back to top starts----*/
 
+/*----projects starts----*/
+
+.card {
+    margin-left: 50px;
+    width: 400px;
+}
+
+/*----project ends----*/
+
 #up {
   display: none;
   position: fixed; 
