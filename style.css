@@ -162,11 +162,11 @@ label {
 
 /*----projects starts----*/
 
-.card {
+/* .card {
     margin: 20px 0px 40px 150px;
     width: 400px;
     padding: 0;
-}
+} */
 
 /*----project ends----*/
 
@@ -632,6 +632,18 @@ a:hover {
 }
 
 /*----skills ends----*/
+
+/*----projects starts----*/
+.card {
+    margin: 20px 0px 40px 150px;
+    width: 400px;
+    padding: 0;
+}
+
+.card-img-top {
+    height: 250px;
+}
+/*----projects ends----*/
 
 }
 
