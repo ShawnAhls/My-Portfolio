@@ -163,8 +163,9 @@ label {
 /*----projects starts----*/
 
 .card {
-    margin-left: 50px;
+    margin: 20px 0px 40px 150px;
     width: 400px;
+    padding: 0;
 }
 
 /*----project ends----*/
