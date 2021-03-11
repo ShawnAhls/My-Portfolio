@@ -97,8 +97,8 @@ h3 {
 
 /*----skills starts----*/
 
-h6 {
-    margin: 15px;
+h5 {
+    margin: 20px;
 }
 
 .skills {
@@ -253,8 +253,8 @@ footer p i{
 /*----navbar ends----*/
 /*----skills starts----*/
 
-h6 {
-    margin: 15px;
+h5 {
+    margin: 8px;
 }
 
 .skills {
@@ -332,12 +332,12 @@ a:hover {
 /*----navbar ends----*/
 /*----skills starts----*/
 
-h6 {
-    margin: 15px;
+h5 {
+    margin: 8px;
 }
 
 .skills {
-    margin-left: 50px;
+    margin-left: 45px;
     margin-bottom: 15px;
 }
 
@@ -397,12 +397,12 @@ a:hover {
 
 /*----navbar ends----*/
 /*----skills starts----*/
-h6 {
-    margin: 15px;
+h5 {
+    margin: 10px;
 }
 
 .skills {
-    margin-left: 54px;
+    margin-left: 50px;
     margin-bottom: 15px;
 }
 
@@ -462,8 +462,8 @@ a:hover {
 
 /*----navbar ends----*/
 /*----skills starts----*/
-h6 {
-    margin: 15px;
+h5 {
+    margin: 10px;
 }
 
 .skills {
@@ -527,10 +527,9 @@ a:hover {
     margin-left: 195px;
 }
 
-
 /*----navbar ends----*/
 /*----skills starts----*/
-h6 {
+h5 {
     margin: 15px;
 }
 
@@ -597,7 +596,7 @@ a:hover {
 /*----navbar ends----*/
 /*----skills starts----*/
 
-h6 {
+h5 {
     margin: 15px;
 }
 
@@ -678,7 +677,7 @@ a:hover {
 /*----navbar ends----*/
 /*----skills starts----*/
 
-h6 {
+h5 {
     margin: 15px;
 }
 
