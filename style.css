@@ -521,9 +521,12 @@ a:hover {
     display: flex;
 }
 
-/* .navbar-links {
-    margin: 0px;
-} */
+.navbar-links ul {
+    flex-direction: column;
+    margin: 0;
+    margin-left: 195px;
+}
+
 
 /*----navbar ends----*/
 /*----skills starts----*/
@@ -585,6 +588,12 @@ a:hover {
     display: flex;
 }
 
+.navbar-links ul {
+    flex-direction: column;
+    margin: 0;
+    margin-left: 500px;
+}
+
 /*----navbar ends----*/
 /*----skills starts----*/
 
@@ -636,12 +645,13 @@ a:hover {
 /*----projects starts----*/
 .card {
     margin: 20px 0px 40px 150px;
-    width: 400px;
+    width: 423px;
     padding: 0;
 }
 
 .card-img-top {
     height: 250px;
+    width: 423px;
 }
 /*----projects ends----*/
 
@@ -657,6 +667,13 @@ a:hover {
 .navbar-links {
     display: flex;
 }
+
+.navbar-links ul {
+    flex-direction: column;
+    margin: 0;
+    margin-left: 1500px;
+}
+
 
 /*----navbar ends----*/
 /*----skills starts----*/
