@@ -160,16 +160,6 @@ label {
 
 /*----back to top starts----*/
 
-/*----projects starts----*/
-
-/* .card {
-    margin: 20px 0px 40px 150px;
-    width: 400px;
-    padding: 0;
-} */
-
-/*----project ends----*/
-
 #up {
   display: none;
   position: fixed; 
@@ -297,6 +287,18 @@ a:hover {
 }
 
 /*----skills ends----*/
+/* ----projects starts----*/
+.card {
+    margin: 20px 0 40px 0;
+    width: 296px;
+    padding: 0;
+}
+
+.card-img-top {
+    height: 178px;
+    width: 295px;
+/*----projects ends---- */
+}
 
 }
 
@@ -376,6 +378,18 @@ a:hover {
 }
 
 /*----skills ends----*/
+/* ----projects starts----*/
+.card {
+    margin: 20px 0 40px 30px;
+    width: 296px;
+    padding: 0;
+}
+
+/* .card-img-top {
+    height: 178px;
+    width: 295px; 
+}*/
+/*----projects ends---- */
 
 }
 
@@ -442,6 +456,19 @@ a:hover {
 
 /*----skills ends----*/
 
+/* ----projects starts----*/
+.card {
+    margin: 20px 0 40px 60px;
+    width: 296px;
+    padding: 0;
+}
+
+/* .card-img-top {
+    height: 178px;
+    width: 295px;
+} */
+/*----projects ends---- */
+
 }
 
 @media (min-width: 768px) {
@@ -506,6 +533,15 @@ a:hover {
 }
 
 /*----skills ends----*/
+
+/* ----projects starts----*/
+.card {
+    margin: 20px 0 40px 40px;
+    width: 296px;
+    padding: 0;
+}
+/*----projects ends---- */
+
 }
 
 @media (min-width: 992px) {
@@ -573,7 +609,13 @@ a:hover {
 }
 
 /*----skills ends----*/
-
+/* ----projects starts----*/
+.card {
+    margin: 20px 0 40px 90px;
+    width: 296px;
+    padding: 0;
+}
+/*----projects ends---- */
 }
 
 @media (min-width: 1200px) {
@@ -641,7 +683,7 @@ a:hover {
 
 /*----skills ends----*/
 
-/*----projects starts----*/
+/* ----projects starts----*/
 .card {
     margin: 20px 0px 40px 150px;
     width: 423px;
@@ -652,7 +694,7 @@ a:hover {
     height: 250px;
     width: 423px;
 }
-/*----projects ends----*/
+/*----projects ends---- */
 
 }
 
@@ -721,5 +763,12 @@ a:hover {
 }
 
 /*----skills ends----*/
+/* ----projects starts----*/
+.card {
+    margin: 20px 0 40px 380px;
+    width: 296px;
+    padding: 0;
+}
+/*----projects ends---- */
     
 }
