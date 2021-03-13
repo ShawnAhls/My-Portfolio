@@ -680,7 +680,6 @@ a:hover {
     background-color: whitesmoke;
     border: 2px solid rgb(199, 198, 198);
 }
-
 /*----skills ends----*/
 
 /* ----projects starts----*/
@@ -696,6 +695,16 @@ a:hover {
 }
 /*----projects ends---- */
 
+/*-----contact starts----*/
+fieldset{
+    margin: 50px 300px;
+    border: 5px solid lightgray;
+}
+
+label {
+    margin: 15px 15px 15px 50px;
+}
+/*-----contact ends-----*/
 }
 
 @media (min-width: 2560px) {
