@@ -66,7 +66,7 @@ nav:after {
 /*----navbar ends----*/
 
 /*----images starts----*/
-img {
+.headphones {
     position: relative;
     width: 100%;
     padding: 0;
@@ -92,7 +92,6 @@ h3 {
 .bio {
     border-color: black;
 }
-
 /*----about ends----*/
 
 /*----skills starts----*/
@@ -636,6 +635,15 @@ a:hover {
 }
 
 /*----navbar ends----*/
+
+/*----about starts----*/
+.headshot {
+    height: 170px;
+    width: 150px;
+    border: 2px dotted red;
+}
+/*----about ends----*/
+
 /*----skills starts----*/
 
 h5 {
