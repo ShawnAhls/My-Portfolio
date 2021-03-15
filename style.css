@@ -701,6 +701,11 @@ a:hover {
     height: 250px;
     width: 423px;
 }
+
+.more {
+    margin-left: 550px;
+    font-family: Special Elite;
+}
 /*----projects ends---- */
 
 /*-----contact starts----*/
@@ -711,6 +716,18 @@ fieldset{
 
 label {
     margin: 15px 15px 15px 50px;
+}
+
+#firstname {
+    margin-left: 10px;
+}
+
+#email {
+    margin-left: 15px;
+}
+
+.info {
+    width: 250px;
 }
 /*-----contact ends-----*/
 }
