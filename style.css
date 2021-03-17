@@ -625,7 +625,7 @@ a:hover {
 }
 
 .navbar-brand {
-    margin: 10px 0px 0px 76px;
+    margin: 10px 0px 0px 40px;
 }
 
 .navbar-links {
@@ -635,7 +635,7 @@ a:hover {
 .navbar-links ul {
     flex-direction: column;
     margin: 0;
-    margin-left: 400px;
+    margin-left: 350px;
 }
 
 /*----navbar ends----*/
@@ -741,6 +741,10 @@ label {
 
 .toggle-button {
     display: none;
+}
+
+.navbar-brand {
+    margin: 10px 0px 0px 76px;
 }
 
 .navbar-links {
