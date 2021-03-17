@@ -559,7 +559,7 @@ a:hover {
 .navbar-links ul {
     flex-direction: column;
     margin: 0;
-    margin-left: 195px;
+    margin-left: 104px;
 }
 
 /*----navbar ends----*/
@@ -624,6 +624,10 @@ a:hover {
     display: none;
 }
 
+.navbar-brand {
+    margin: 10px 0px 0px 76px;
+}
+
 .navbar-links {
     display: flex;
 }
@@ -631,7 +635,7 @@ a:hover {
 .navbar-links ul {
     flex-direction: column;
     margin: 0;
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
 /*----navbar ends----*/
@@ -703,7 +707,7 @@ a:hover {
 }
 
 .more {
-    margin-left: 550px;
+    text-align: center;
     font-family: Special Elite;
 }
 /*----projects ends---- */
