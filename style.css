@@ -642,9 +642,22 @@ a:hover {
 
 /*----about starts----*/
 .headshot {
-    height: 170px;
-    width: 150px;
+    float: left;
+    height: 200px;
+    width: 200px;
     border: 2px dotted red;
+}
+
+.bio {
+    margin: 50px 150px;
+}
+
+.container {
+    margin: 10px;
+}
+
+.para {
+    margin-left: 240px;
 }
 /*----about ends----*/
 
@@ -709,6 +722,7 @@ a:hover {
 .more {
     text-align: center;
     font-family: Special Elite;
+    font-size: 17px;
 }
 /*----projects ends---- */
 
