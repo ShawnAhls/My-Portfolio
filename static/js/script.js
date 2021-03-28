@@ -28,7 +28,7 @@ toggleButton.addEventListener('click', () => {
 
 (function() {
     // https://dashboard.emailjs.com/admin/integration
-    emailjs.init('YOUR_USER_ID');
+    emailjs.init('user_0Tbwni7tTxuck9etq3rDw');
 })();
 
 window.onload = function() {
