@@ -214,7 +214,7 @@
     <section>
         <h3 id='contact'><u>Reach out to me</u></h3>
         <div class='container-fluid'>
-            <form>
+            <!-- <form>
                 <fieldset>
                     <label for="firstname">Name </label>
                     <input type="text" class='info' id="firstname" name="firstname" placeholder="Your name.." required></br>
@@ -225,8 +225,18 @@
                     <label for="textarea">
                     <textarea name="" id="" cols="50" rows="7" placeholder='Please write your message...' required></textarea>
                     </label></br>
-                    <!-- <button type="submit" class="submit">Send</button> -->
+                    <button type="submit" class="submit">Send</button>
                 </fieldset>
+            </form> -->
+            <form id="contact-form">
+                <input type="hidden" name="contact_number">
+                <label>Name</label>
+                <input type="text" name="user_name">
+                <label>Email</label>
+                <input type="email" name="user_email">
+                <label>Message</label>
+                <textarea name="message"></textarea>
+                <input type="submit" value="Send">
             </form>
         </div>
     </section>
@@ -249,6 +259,7 @@
     <!-- JS script starts -->
     <script type='text/javascript' src='static/js/script.js'></script>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <!-- JS script ends -->
 
 </body>
