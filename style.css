@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
-
+body {
+    background-color: beige;
+}
 /*----navbar starts----*/
 .navbar {
     display: flex;
@@ -661,8 +663,7 @@ a:hover {
 
 .bio {
     margin: 50px 150px;
-    box-shadow: 16px 5px 20px lightgrey;
-    border-radius: 30px;
+    
 }
 
 .container {
@@ -671,6 +672,8 @@ a:hover {
 
 .para {
     margin-left: 240px;
+    font-family: Special Elite;
+    font-size: large;
 }
 /*----about ends----*/
 
@@ -784,8 +787,30 @@ label {
     margin-left: 1500px;
 }
 
-
 /*----navbar ends----*/
+
+/*----about starts----*/
+.headshot {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: 2px dotted red;
+}
+
+.bio {
+    margin: 50px 150px;
+}
+
+.container {
+    margin: 10px;
+}
+
+.para {
+    margin-left: 240px;
+}
+/*----about ends----*/
+
+
 /*----skills starts----*/
 
 h5 {
