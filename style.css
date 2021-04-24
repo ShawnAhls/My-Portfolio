@@ -656,8 +656,8 @@ a:hover {
 /*----about starts----*/
 .headshot {
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 420px;
+    width: 315px;
     border: 2px solid black;
 }
 
@@ -671,9 +671,9 @@ a:hover {
 }
 
 .para {
-    margin-left: 240px;
+    margin-left: 370px;
     font-family: Special Elite;
-    font-size: large;
+    font-size: 17px;
 }
 /*----about ends----*/
 
