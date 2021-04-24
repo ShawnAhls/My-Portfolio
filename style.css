@@ -525,6 +525,31 @@ a:hover {
 }
 
 /*----navbar ends----*/
+
+/*----about starts----*/
+.headshot {
+    float: left;
+    height: 243px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.bio {
+    margin: 50px 147px;
+    
+}
+
+.container {
+    margin: 0;
+}
+
+.para {
+    margin-left: 220px;
+    font-family: Special Elite;
+    font-size: 11px;
+}
+/*----about ends----*/
+
 /*----skills starts----*/
 h5 {
     margin: 10px;
@@ -533,6 +558,12 @@ h5 {
 .skills {
     margin-left: 200px;
     margin-bottom: 15px;
+}
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: 13px;
 }
 
 a {
@@ -603,6 +634,7 @@ a:hover {
 /*----navbar ends----*/
 
 /*----about starts----*/
+
 .headshot {
     float: left;
     height: 420px;
@@ -621,9 +653,9 @@ a:hover {
 
 .para {
     word-wrap: break-word;
-    margin-left: 370px;
+    margin-left: 336px;
     font-family: Special Elite;
-    font-size: 17px;
+    font-size: 16px;
 }
 /*----about ends----*/
 
@@ -635,6 +667,12 @@ h5 {
 .skills {
     margin-left: 250px;
     margin-bottom: 15px;
+}
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: 17px;
 }
 
 a {
