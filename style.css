@@ -278,10 +278,6 @@ footer p i{
 }
 /*----about ends----*/
 
-
-
-
-
 /*----skills starts----*/
 
 h5 {
@@ -605,6 +601,32 @@ a:hover {
 }
 
 /*----navbar ends----*/
+
+/*----about starts----*/
+.headshot {
+    float: left;
+    height: 420px;
+    width: 315px;
+    border: 2px solid black;
+}
+
+.bio {
+    margin: 50px 150px;
+    
+}
+
+.container {
+    margin: 10px;
+}
+
+.para {
+    word-wrap: break-word;
+    margin-left: 370px;
+    font-family: Special Elite;
+    font-size: 17px;
+}
+/*----about ends----*/
+
 /*----skills starts----*/
 h5 {
     margin: 15px;
@@ -655,6 +677,12 @@ a:hover {
     margin: 20px 0 40px 90px;
     width: 296px;
     padding: 0;
+}
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: 17px;
 }
 /*----projects ends---- */
 }
@@ -719,6 +747,12 @@ h5 {
 .skills {
     margin-left: 360px;
     margin-bottom: 100px;
+}
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: 17px;
 }
 
 a {
