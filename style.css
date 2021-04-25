@@ -447,6 +447,32 @@ a:hover {
 }
 
 /*----navbar ends----*/
+
+/*----about starts----*/
+.headshot {
+    float: left;
+    height: 250px;
+    width: 220px;
+    border: 2px solid black;
+}
+
+.bio {
+    margin: 50px 90px;
+    
+}
+
+.container {
+    margin: 10px;
+}
+
+.para {
+    margin-top: 50px;
+    margin-left: 0;
+    font-family: Special Elite;
+    font-size: 10px;
+}
+/*----about ends----*/
+
 /*----skills starts----*/
 h5 {
     margin: 10px;
@@ -455,6 +481,12 @@ h5 {
 .skills {
     margin-left: 50px;
     margin-bottom: 15px;
+}
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: 10px;
 }
 
 a {
