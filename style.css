@@ -257,20 +257,20 @@ footer p i{
 /*----about starts----*/
 .headshot {
     float: left;
-    height: 190px;
-    width: 170px;
+    height: 260px;
+    width: 240px;
     border: 2px solid black;
 }
 
 .bio {
-    margin: 50px 70px;
+    margin: 50px 30px;
     
 }
 
 .para {
     margin-left: 0px;
     font-family: Special Elite;
-    font-size: 11px;
+    font-size: small;
     margin-top: 25px;
 }
 /*----about ends----*/
@@ -288,7 +288,7 @@ h5 {
 .more {
     text-align: center;
     font-family: Special Elite;
-    font-size: 10px;
+    font-size: small;
 }
 
 a {
@@ -337,13 +337,19 @@ a:hover {
     height: 178px;
     width: 295px;
 }
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: small;
+}
 /*----projects ends---- */
 
 /*----contact starts---- */
 .reach {
     font-family: Special Elite;
     text-align: center;
-    font-size: large;
+    font-size: medium;
 }
 /*----contract ends---- */
 
