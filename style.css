@@ -257,29 +257,25 @@ footer p i{
 /*----about starts----*/
 .headshot {
     float: left;
-    height: 420px;
-    width: 315px;
+    height: 190px;
+    width: 170px;
     border: 2px solid black;
 }
 
 .bio {
-    margin: 50px 150px;
+    margin: 50px 70px;
     
 }
 
-.container {
-    margin: 10px;
-}
-
 .para {
-    margin-left: 370px;
+    margin-left: 0px;
     font-family: Special Elite;
-    font-size: 17px;
+    font-size: 11px;
+    margin-top: 25px;
 }
 /*----about ends----*/
 
 /*----skills starts----*/
-
 h5 {
     margin: 8px;
 }
@@ -287,6 +283,12 @@ h5 {
 .skills {
     margin-left: 20px;
     margin-bottom: 15px;
+}
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: 10px;
 }
 
 a {
@@ -334,8 +336,16 @@ a:hover {
 .card-img-top {
     height: 178px;
     width: 295px;
-/*----projects ends---- */
 }
+/*----projects ends---- */
+
+/*----contact starts---- */
+.reach {
+    font-family: Special Elite;
+    text-align: center;
+    font-size: large;
+}
+/*----contract ends---- */
 
 }
 
