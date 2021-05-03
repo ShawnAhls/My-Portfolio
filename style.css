@@ -972,16 +972,15 @@ h3 {
 .para {
     margin-left: 0;
     font-family: Special Elite;
-    font-size: 35px;
+    font-size: 32px;
 }
 /*----about ends----*/
-
 
 /*----skills starts----*/
 
 h5 {
-    margin: 15px;
-    font-size: 40px;
+    margin: 20px;
+    font-size: 50px;
 }
 
 .skills {
@@ -1033,12 +1032,30 @@ a:hover {
 /*----skills ends----*/
 /* ----projects starts----*/
 .card {
-    margin: 20px 0 40px 380px;
-    width: 296px;
+    margin: 20px 0 80px 270px;
+    width: 760px;
     padding: 0;
 }
-/*----projects ends---- */
-    
+
+.card-img-top {
+    height: 500px;
+    width: 760px;
 }
 
+.card-title {
+    margin-bottom: 2rem;
+}
+
+/*----projects ends---- */
+
+/*-----contact starts----*/
+.reach {
+    font-family: Special Elite;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*-----contact ends----*/
+
+}
 /*----Media Queries ends----*/
