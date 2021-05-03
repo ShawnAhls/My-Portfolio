@@ -924,12 +924,20 @@ label {
 @media (min-width: 2560px) {
 /*----navbar starts----*/
 
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
 .toggle-button {
     display: none;
 }
 
 .navbar-brand {
-    margin: 10px 0px 0px 76px;
+    margin: 17px 0px 0px 76px;
 }
 
 .navbar-links {
@@ -939,7 +947,8 @@ label {
 .navbar-links ul {
     flex-direction: column;
     margin: 0;
-    margin-left: 1500px;
+    margin-left: 800px;
+    font-size: 35px;
 }
 
 /*----navbar ends----*/
@@ -947,13 +956,13 @@ label {
 /*----about starts----*/
 .headshot {
     float: left;
-    height: 200px;
-    width: 200px;
-    border: 2px dotted red;
+    height: 900px;
+    width: 750px;
+    border: 3px solid black;
 }
 
 .bio {
-    margin: 50px 150px;
+    margin: 50px 440px;
 }
 
 .container {
@@ -961,7 +970,9 @@ label {
 }
 
 .para {
-    margin-left: 240px;
+    margin-left: 0;
+    font-family: Special Elite;
+    font-size: 35px;
 }
 /*----about ends----*/
 
@@ -970,11 +981,19 @@ label {
 
 h5 {
     margin: 15px;
+    font-size: 40px;
 }
 
 .skills {
-    margin-left: 900px;
+    margin-left: 790px;
     margin-bottom: 100px;
+}
+
+.more {
+    text-align: center;
+    font-family: Special Elite;
+    font-size: 35px;
+    margin-bottom: 40px;
 }
 
 a {
@@ -994,18 +1013,18 @@ a:hover {
 }
 
 .circle {
-    margin-left: 25px;
-    height: 40px;
-    width: 40px;
+    margin-left: 33px;
+    height: 76px;
+    width: 76px;
     border-radius: 50%;
     background-color: darkgray;
-    border: 2px solid darkgray;
+    border: 3px solid gray;
 }
 
 .circle1 {
-    margin-left: 25px;
-    height: 40px;
-    width: 40px;
+    margin-left: 33px;
+    height: 76px;
+    width: 76px;
     border-radius: 50%;
     background-color: whitesmoke;
     border: 2px solid rgb(199, 198, 198);
