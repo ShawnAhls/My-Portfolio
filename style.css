@@ -970,7 +970,7 @@ h3 {
 }
 
 .para {
-    margin-left: 0;
+    margin-left: 27px;
     font-family: Special Elite;
     font-size: 32px;
 }
@@ -1055,7 +1055,34 @@ a:hover {
     font-size: 35px;
 }
 
+.working {
+    margin-bottom: 50px;
+}
+
 /*-----contact ends----*/
+
+#up {
+  display: none;
+    position: fixed;
+    bottom: 111px;
+    right: 32px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(218, 218, 218);
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 14px;
+    font-size: 50px; 
+}
+
+footer p {
+    font-family: Special Elite;
+    font-size: 38px;
+    color: white;
+    margin-top: 30px;
+}
 
 }
 /*----Media Queries ends----*/
